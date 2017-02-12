@@ -9,7 +9,8 @@ private:
   float wage;
 public:
   Employee(std::string name, int id, std::string title, float wage);
-  float get_monthly_pay();
+  std::string get_title();
+  float get_monthly_pay(float hours_worked);
 };
 
 #endif
