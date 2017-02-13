@@ -1,7 +1,7 @@
 #include <iostream>
 #include "universityperson.hpp"
 
-UniversityPerson::UniversityPerson() : name(""), id(0) {}
+UniversityPerson::UniversityPerson() : name("unnamed"), id(-1) {}
 
 
 UniversityPerson::UniversityPerson(std::string name, int id)

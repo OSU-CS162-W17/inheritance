@@ -2,7 +2,9 @@
 #include "employee.hpp"
 
 Employee::Employee(std::string name, int id, std::string title, float pay_rate = 0)
-  : UniversityPerson(name, id), title(title), pay_rate(pay_rate) {}
+  : UniversityPerson(name, id), title(title), pay_rate(pay_rate) {
+    this->address = "1148 Kelley";
+  }
 
 
 std::string Employee::get_title() {
